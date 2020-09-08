@@ -1,3 +1,108 @@
+## App.css
+```css
+@import-normalize;
+@import '../css/font.css';
+@import '../css/button.css';
+
+*,*::before,*::after{
+  font-family: dance;
+}
+
+
+body{
+  padding:0;
+  margin:0;
+}
+
+
+html{
+  font-size:25px;
+}
+
+
+```
+
+## button.css
+```css
+.btn{
+    border:none;
+    background:none;
+    outline:none;
+    font-size:inherit;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    padding:5px 20px;
+}
+
+.btn--primary{
+    color:white;
+    background: #ee0979;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.btn--primary:hover{
+    background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+```
+
+## font.css
+```css
+@font-face {
+    font-family:dance;
+    src: url('../fonts/Dance.woff') format(woff);
+    font-weight: bold;
+    font-style: italic;
+}
+```
+
+## recipe-list.css 
+```css
+.recipe-list{
+border-right:1px solid black;
+min-height:100vh;
+width:50%;
+
+}
+
+.recipe-list__add-recipe-list-button{
+padding-top:30px;
+padding-bottom:30px;
+text-align:center;
+
+}
+```
+
+## RecipeList.js
+```jsx
+import React from 'react'
+import Recipe from './Recipe';
+import "../css/recipe-list.css"
+
+
+export default function RecipeList({ recipes }) {
+    return (
+        <div className="recipe-list">
+            <div>
+                {recipes.map(recipe => {
+                    return (<Recipe key={recipe.id} {...recipe} />)
+                })}
+            </div>
+            <div className="recipe-list__add-recipe-list-button">
+                <button className="btn btn--primary">+ Add Recipe Ingredients</button>
+            </div>
+        </div>
+    )
+}
+
+```
+
 ## Available Script
 
 In the project directory, you can run:
