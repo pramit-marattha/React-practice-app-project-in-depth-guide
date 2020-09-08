@@ -1,3 +1,6 @@
+<iframe src="https://www.blog.ezekielekunola.com/deploying-react-app-from-github-to-netlify" width="100%" height="600" ></iframe>
+
+
 ## Available Script
 
 In the project directory, you can run:
