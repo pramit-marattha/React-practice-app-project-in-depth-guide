@@ -1,3 +1,25 @@
+
+## Implementing localStorage in just seven lines of code
+
+#### In app.js
+First Create unique key for localstorage
+```jsx
+const LOCAL_STORAGE_KEY = 'recipeIngredientReact'
+```
+
+```jsx
+  useEffect(() => {
+    const recipeJSON = localStorage.getItem(LOCAL_STORAGE_KEY)
+    if (recipeJSON != null) setRecipes(JSON.parse(recipeJSON))
+  })
+
+  useEffect(() => {
+    localStorage.setItem('LOCAL_STORAGE_KEY', JSON.stringify(recipes))
+  }, [recipes])
+
+```
+
+
 ## Available Script
 
 In the project directory, you can run:
