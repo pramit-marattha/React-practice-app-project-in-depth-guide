@@ -1,3 +1,38 @@
+
+## App function (inside App component)
+
+```jsx
+function App() {
+  const [recipes, setRecipes] = useState(arrayRecipe)
+
+  function handleRecipeAddButton() {
+    const newRecipeItem = {
+      id: uuidv4(),
+      name: 'Test',
+      cookTime: '12:30',
+      servings: '30',
+      instructions: 'Instruction test',
+      ingredients: [{
+        id: uuidv4(),
+        name: "test_ingredient",
+        amount: "1kilogram"
+      }]
+    }
+    setRecipes([...recipes, newRecipeItem])
+  }
+  function handleRecipeDeleteButton(id) {
+    setRecipes(recipes.filter(recipe => recipe.id !== id))
+  }
+  return (
+    <RecipeList
+      recipes={recipes}
+      handleRecipeAddButton={handleRecipeAddButton}
+      handleRecipeDeleteButton={handleRecipeDeleteButton} />
+  );
+}
+```
+
+
 ## Available Script
 
 In the project directory, you can run:
