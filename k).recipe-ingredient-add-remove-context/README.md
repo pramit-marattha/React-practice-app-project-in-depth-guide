@@ -1,3 +1,26 @@
+
+## Creating an context that has two function which is in object
+```jsx 
+ const recipeContextValue = {
+    handleRecipeAddButton,
+    handleRecipeDeleteButton
+  }
+```
+### And wrapping everything inside of that context and providing the value on everything inside of it.So, that we no longer have to pass the value inside of the props
+```jsx
+  return (
+    <RecipeContext.Provider value={recipeContextValue}>
+
+      <RecipeList recipes={recipes} />
+    </RecipeContext.Provider>
+
+  );
+```
+
+### By using context we dont have to worry about the deeply nested passing.
+
+
+
 ## Available Script
 
 In the project directory, you can run:
