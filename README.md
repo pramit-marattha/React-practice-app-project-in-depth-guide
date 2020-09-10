@@ -224,24 +224,22 @@ select your repo | Enter npm run build command adn build directory
 ---
 ---
 ---
-## 15).recipe-ingredient-state-recipe-ingredient-value==>  [Its Live]()
-![]()
-## It's Live 🎉 Visit here ==>
-## Project Source Code ==> [Here]()
+## 15).recipe-ingredient-state-recipe-ingredient-value==>  [Its Live](https://recipeingredientstate.netlify.app/)
+![recipe-ingredient-state](https://user-images.githubusercontent.com/37651620/92808898-daa73500-f3db-11ea-8611-870bfaddb62f.png)
+## It's Live 🎉 Visit here ==>https://recipeingredientstate.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/3hia3vW)
 ---
 ---
 ---
-## 16).recipe-ingredient-input-interactivity==>  [Its Live]()
-![]()
-## It's Live 🎉 Visit here ==>
-## Project Source Code ==> [Here]()
+## 16).recipe-ingredient-input-interactivity==>  [Its Live](https://recipeingredientinput.netlify.app/)
+![recipe-ingredient-input-interactivity](https://user-images.githubusercontent.com/37651620/92809341-3ffb2600-f3dc-11ea-8908-d7b3181c4e47.png)
+## It's Live 🎉 Visit here ==>https://recipeingredientinput.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/2F8wneH)
 ---
 ---
 ---
-## 17).complete-kitchen-react-app==>  [Its Live]()
-![]()
-## It's Live 🎉 Visit here ==>
-## Project Source Code ==> [Here]()
----
----
+## 17).complete-kitchen-react-app==>  [Its Live](https://completekitchenapp.netlify.app/)
+![complete-kitchen-app](https://user-images.githubusercontent.com/37651620/92809829-b3049c80-f3dc-11ea-94b8-950227788c80.png)
+## It's Live 🎉 Visit here ==>https://completekitchenapp.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/35qVBzG)
 ---
