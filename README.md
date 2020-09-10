@@ -139,9 +139,24 @@ These objects are called "React elements". You can think of them as descriptions
 ---
 
 ## 5).continious-deployment-continious-integration
-.
-.
-.
+Build project npm run build | git 
+-------|------
+![build](https://user-images.githubusercontent.com/37651620/92791920-d1629c00-f3cc-11ea-90a0-ec4d888daf5c.png)|![build2](https://user-images.githubusercontent.com/37651620/92791926-d293c900-f3cc-11ea-9d83-0b29198d7f56.png)
+
+upload that build folder in netlify
+------|
+![build7](https://user-images.githubusercontent.com/37651620/92791928-d32c5f80-f3cc-11ea-9233-8344e7ed4466.png)|
+
+login to netify select new site from git | select github 
+-------|--------:
+![build3](https://user-images.githubusercontent.com/37651620/92792382-34ecc980-f3cd-11ea-8439-0ec144cc79c8.png)|![build4](https://user-images.githubusercontent.com/37651620/92792391-36b68d00-f3cd-11ea-9f05-062acb64497b.png)
+
+
+select your repo | Enter npm run build command adn build directory
+---------|-------:
+![build5](https://user-images.githubusercontent.com/37651620/92792396-36b68d00-f3cd-11ea-90da-b3c1a0dc258a.png)|![build6](https://user-images.githubusercontent.com/37651620/92792398-374f2380-f3cd-11ea-94e1-dcaf68f57a55.png)
+
+
 ---
 
 ## 6).kitchen-app-component-breakdown
