@@ -1,4 +1,10 @@
 # React-Projects-with-detailed-explanation
+## Project Demonstration
+Project (counter app) [Click here for demo](https://reactcontextimplement.netlify.app/) | Project (Kitchen App) [Click here for demo](https://completekitchen.netlify.app/)
+-------------------------|--------------------------:
+![4PLL6vk4hv](https://user-images.githubusercontent.com/37651620/92783286-5e095c00-f3c5-11ea-9166-e79ea5ab0c2b.gif) | ![Complete_Project](https://user-images.githubusercontent.com/37651620/92781623-03233500-f3c4-11ea-9462-2d0e60246a50.gif)
+
+---
 ## 1).javascript-xml-intro ==> [Its Live](https://javascriptxmlintro.netlify.app/)
 ### Intro To Jsx (JavaScript XML)
 =============================
