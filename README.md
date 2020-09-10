@@ -217,10 +217,10 @@ select your repo | Enter npm run build command adn build directory
 ---
 ---
 ---
-## 14).recipe-ingredient-edit-css==>  [Its Live]()
-![]()
-## It's Live 🎉 Visit here ==>
-## Project Source Code ==> [Here]()
+## 14).recipe-ingredient-edit-css==>  [Its Live](https://recipeingredienteditstyling.netlify.app/)
+![recipe-ingredient-edit-styling](https://user-images.githubusercontent.com/37651620/92807878-f8c06580-f3da-11ea-9fe3-302a41515094.png)
+## It's Live 🎉 Visit here ==>https://recipeingredienteditstyling.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/2DNlyxM)
 ---
 ---
 ---
