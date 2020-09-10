@@ -1,5 +1,103 @@
-## Available Scripts
- 
+## Hooking up change events so anytime we edit, updates happens simultaneously
+
+## setting up the intractions between the inputs and actual stored recipes state so anytime we change the inputs is going to update our states which is going to propagates throught entire applications and updates every single thing inside of that application
+
+At First
+
+#### In App.js
+adding a function inside App.js
+```jsx
+
+  function handleRecipeChange(id, recipe) {
+    const newRecipes = [...recipes]
+    const index = newRecipes.findIndex(r => r.id === id)
+    newRecipes[index] = recipe
+    setRecipes(newRecipes)
+  }
+```
+
+#### In EditRecipePannel.js
+```jsx
+import React, { useContext } from 'react';
+import '../css/App.css';
+import IngredientEdit from './IngredientEdit';
+import { RecipeContext } from './App';
+
+export default function EditRecipePannel({ recipe }) {
+    const { handleRecipeChange } = useContext(RecipeContext)
+
+    function handleChange(changes) {
+        handleRecipeChange(recipe.id, { ...recipe, ...changes })
+    }
+
+    function handleIngredientChange(id, ingredient) {
+        const newIngredients = [...recipe.ingredients]
+        const index = newIngredients.findIndex(r => r.id === id)
+        newIngredients[index] = ingredient
+        handleChange({ ingredients: newIngredients })
+    }
+
+
+    return (
+        <div className="recipe-edit">
+            <div className="recipe-edit__remove-edit-btn-con">
+                <button className="recipe-edit__remove-edit-button">&times;</button>
+            </div>
+            <div className="recipe-edit__details-grid">
+                <label HtmlFor="name" className="recipe-edit__label">Name</label>
+                <input type="text" id="name" name="name" value={recipe.name} className="recipe-edit__input" onInput={e => handleChange({ name: e.target.value })} />
+                <label HtmlFor="cookTime" className="recipe-edit__label">Cook Time</label>
+                <input type="text" id="cookTime" name="cookTime" value={recipe.cookTime} className="recipe-edit__input" onInput={e => handleChange({ cookTime: e.target.value })} />
+                <label HtmlFor="servings" className="recipe-edit__label">Servings</label>
+                <input type="number" min="1" id="servings" name="servings" value={recipe.servings} className="recipe-edit__input" onInput={e => handleChange({ servings: parseInt(e.target.value) || '' })} />
+                <label HtmlFor="instructions" className="recipe-edit__label" >Instructions</label>
+                <textarea id="instructions" name="instructions" className="recipe-edit__input" value={recipe.instructions} onInput={e => handleChange({ instructions: e.target.value })} />
+            </div>
+            <br />
+            <label className="recipe-edit__label">Ingredients</label>
+            <div className="recipe-edit__ingredient-grid">
+                <div>Name</div>
+                <div>Amount</div>
+                <div></div>
+                {recipe.ingredients.map(ingredient => (
+                    <IngredientEdit key={ingredient.id} handleIngredientChange={handleIngredientChange} ingredient={ingredient} />
+                ))}
+
+            </div>
+            <div className="recipe-edit__add-ingredient-btn-container">
+                <button className="btn btn--primary">✏️ Edit Recipe Ingredient</button>
+            </div>
+        </div>
+    )
+}
+
+```
+
+#### In IngredientEdit.js
+```jsx
+import React from 'react'
+
+export default function IngredientEdit({ ingredient, handleIngredientChange }) {
+
+    function handleChange(changes) {
+        handleIngredientChange(ingredient.id, { ...ingredient, ...changes })
+    }
+
+
+    return (
+        <>
+            <input className="recipe-edit__input" type="text" value={ingredient.name} onInput={e => handleChange({ name: e.target.value })}></input>
+            <input className="recipe-edit__input" type="text" value={ingredient.amount} onInput={e => handleChange({ amount: e.target.value })}></input>
+            <button className="btn btn--danger">&times;</button>
+        </>
+    )
+}
+
+```
+
+
+## Available Script
+
 In the project directory, you can run:
 
 ### `yarn start`
