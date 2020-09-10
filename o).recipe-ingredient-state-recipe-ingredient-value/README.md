@@ -1,3 +1,49 @@
+## Making the edit button to actually change the state.
+
+## At first add state inside App() on App.js 
+```jsx
+const [selectedRecipeUnique, setSelectedRecipeUnique] = useState();
+```
+## Inside same function add the following code
+```jsx
+const selectedRecipies = recipes.find(recipe => recipe.id === selectedRecipeUnique)
+```
+## The above code is just trying to tell you to go through all of the recipies find the recipe with the given unique id of "selectedRecipeUnique" and that will be stored on "selectedRecipies" and if there is no recepie with that id it will return undefined value.
+
+
+## after that create a function called handleRecipeSelect and pass id to it .
+```jsx
+  function handleRecipeSelect(id) {
+    setSelectedRecipeUnique(id)
+  }
+```
+## Now pass it to the context
+
+## Now inside EditRecipePanel add the value attributes as follows:
+```jsx
+.
+.
+.
+.
+.
+.
+    <label HtmlFor="name" className="recipe-edit__label">Name</label>
+                <input type="text" id="name" name="name" value={recipe.name} className="recipe-edit__input" />
+                <label HtmlFor="cookTime" className="recipe-edit__label">Cook Time</label>
+                <input type="text" id="cookTime" name="cookTime" value={recipe.cookTime} className="recipe-edit__input" />
+                <label HtmlFor="servings" className="recipe-edit__label">Servings</label>
+                <input type="number" min="1" id="servings" name="servings" value={recipe.servings} className="recipe-edit__input" />
+                <label HtmlFor="instructions" className="recipe-edit__label">Instructions</label>
+                <textarea id="instructions" name="instructions" className="recipe-edit__input" value={recipe.instructions} />
+                .
+.
+.
+.
+.
+.
+
+```
+
 ## Available Script
 
 In the project directory, you can run:
