@@ -112,14 +112,14 @@ const element = {
 ```
 These objects are called "React elements". You can think of them as descriptions of what you want to see on the screen. React reads these objects and uses them to construct the DOM and keep it up to date.
 ## It's Live 🎉 Visit here ==>https://javascriptxmlintro.netlify.app/
-## Project Source Code ==> [Here](http://bit.ly/IntroJsx)
+## Project Source Code ==> [Here](https://bit.ly/3m9X9Ur)
 ---
 ---
 ---
 ## 2).class-component-counter ==> [Its Live](https://classbasedcomponent.netlify.app/)
 ![class_based_counter](https://user-images.githubusercontent.com/37651620/92363174-d4316880-f110-11ea-929d-746b70414465.png)
 ## It's Live 🎉 Visit here ==>https://classbasedcoponent.netlify.app/
-## Project Source Code ==> [Here](https://bit.ly/3i7uQDQ)
+## Project Source Code ==> [Here](https://bit.ly/2FmwHWM)
 ---
 ---
 ---
@@ -156,13 +156,16 @@ select your repo | Enter npm run build command adn build directory
 ---------|-------:
 ![build5](https://user-images.githubusercontent.com/37651620/92792396-36b68d00-f3cd-11ea-90da-b3c1a0dc258a.png)|![build6](https://user-images.githubusercontent.com/37651620/92792398-374f2380-f3cd-11ea-94e1-dcaf68f57a55.png)
 
-
+---
+---
 ---
 
-## 6).kitchen-app-component-breakdown
-.
-.
-.
+## 6).kitchen-app-component-breakdown  ==>  [Its Live](https://kitchenappcomponent.netlify.app/)
+![kitechen-app-component-breakdown](https://user-images.githubusercontent.com/37651620/92796392-df1a2080-f3d0-11ea-93bc-5643a90b748f.png)
+## It's Live 🎉 Visit here ==>https://kitchenappcomponent.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/2ZrhYRB)
+---
+---
 ---
 
 ## 7).ingredient-jsx
