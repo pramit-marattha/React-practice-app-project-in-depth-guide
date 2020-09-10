@@ -168,68 +168,80 @@ select your repo | Enter npm run build command adn build directory
 ---
 ---
 
-## 7).ingredient-jsx
-.
-.
-.
+## 7).ingredient-jsx  ==>  [Its Live](https://ingredientjsx.netlify.app/)
+![ingredient-jsx](https://user-images.githubusercontent.com/37651620/92802487-44244500-f3d6-11ea-9de0-013ba3fc4ea9.png)
+## It's Live 🎉 Visit here ==>https://ingredientjsx.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/3ijx6YJ)
 ---
-
-## 8).recipe-ingredient
-.
-.
-.
 ---
-
-## 9).complete-recipe-ingredient
-.
-.
-.
 ---
-
-## 10).recipe-ingredient-add-remove-interactivity
-.
-.
-.
+## 8).recipe-ingredient ==>  [Its Live](https://recipeingredient.netlify.app/)
+![recipe-ingredient-styling](https://user-images.githubusercontent.com/37651620/92802954-ae3cea00-f3d6-11ea-8df5-bd8bbd68315d.png)
+## It's Live 🎉 Visit here ==>https://recipeingredient.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/3bJ6HB9)
 ---
-
-## 11).recipe-ingredient-add-remove-context
-.
-.
-.
 ---
-
-## 12).useEffect-hook-localstorage
-.
-.
-.
 ---
-
-## 13).recipe-ingredient-edit-jsx
-.
-.
-.
+## 9).complete-recipe-ingredient ==>  [Its Live](https://completerecipeingredient.netlify.app/)
+![styling-recipe-ingredient](https://user-images.githubusercontent.com/37651620/92804094-c4977580-f3d7-11ea-974e-c2031c6f3b75.png)
+## It's Live 🎉 Visit here ==>https://completerecipeingredient.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/3m5QjiZ)
 ---
-
-## 14).recipe-ingredient-edit-css
-.
-.
-.
 ---
-
-## 15).recipe-ingredient-state-recipe-ingredient-value
-.
-.
-.
 ---
-
-## 16).recipe-ingredient-input-interactivity
-.
-.
-.
+## 10).recipe-ingredient-add-remove-interactivity==>  [Its Live](https://recipeingredientbutton.netlify.app/)
+![recipe-ingredient-button](https://user-images.githubusercontent.com/37651620/92804528-1e983b00-f3d8-11ea-8dc4-80fabc9bab99.png)
+## It's Live 🎉 Visit here ==>https://recipeingredientbutton.netlify.app/
+## Project Source Code ==> [Here](https://bit.ly/2FsxUvW)
 ---
-
-## 17).complete-kitchen-react-app
-.
-.
-.
+---
+---
+## 11).recipe-ingredient-add-remove-context==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
+---
+## 12).useEffect-hook-localstorage==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
+---
+## 13).recipe-ingredient-edit-jsx==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
+---
+## 14).recipe-ingredient-edit-css==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
+---
+## 15).recipe-ingredient-state-recipe-ingredient-value==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
+---
+## 16).recipe-ingredient-input-interactivity==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
+---
+## 17).complete-kitchen-react-app==>  [Its Live]()
+![]()
+## It's Live 🎉 Visit here ==>
+## Project Source Code ==> [Here]()
+---
+---
 ---
