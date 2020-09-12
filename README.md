@@ -1,4 +1,6 @@
 # React-Projects-with-detailed-explanation
+Full-on hands-on tutorial with a detailed explanation. From simple app to full-on fully functional full-stack react application.Various topics covered for example,basic intro to jsx , react functional components ,react class components, implementing state, using hooks & props,storing data in localStorage,etc.
+
 ## Project Demonstration
 Project (counter app) [Live demo](https://reactcontextimplement.netlify.app/) | Project (Kitchen App) [Live demo](https://completekitchenapp.netlify.app/)
 -------------------------|--------------------------:
